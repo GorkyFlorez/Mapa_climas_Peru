@@ -9,7 +9,7 @@ pacman::p_load(raster, rgdal, rgeos, gtools, tidyverse,rnaturalearth,rnaturalear
 Climas       <-st_read("Shp_SA/clasif_clima_1981_2010.shp")
 Peru         <- getData('GADM', country='Peru', level=1) %>% st_as_sf()     
 
-ggplot() + geom_sf(data = Climas,aes(fill = CODIGO),  alpha = 1, linetype = 1)
+#ggplot() + geom_sf(data = Climas,aes(fill = CODIGO),  alpha = 1, linetype = 1)
 #---------------------------------------------------------------
 display.brewer.allc 
 
@@ -44,7 +44,7 @@ M<-leaflet() %>%
              toggleDisplay = TRUE)%>%
   addSearchFeatures(targetGroups = "Climas")
 
-htmlwidgets::saveWidget(M, "Mapa/Climas del peru.html")
+htmlwidgets::saveWidget(M, "Climas del peru.html")
 
 
 
