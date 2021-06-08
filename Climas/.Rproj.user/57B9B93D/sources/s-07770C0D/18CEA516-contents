@@ -12,7 +12,7 @@ Peru         <- getData('GADM', country='Peru', level=1) %>% st_as_sf()
 ggplot() + geom_sf(data = Climas,aes(fill = CODIGO),  alpha = 1, linetype = 1)
 #---------------------------------------------------------------
 display.brewer.allc 
-colours      = RColorBrewer::brewer.pal(n = 5, name = "YlOrRd")
+
 pal_colores  <- colorFactor(RColorBrewer::brewer.pal(n = 5, name = "RdYlBu"), domain = Climas$CODIGO)
 #Definiendo el Logo
 m="https://images.vexels.com/media/users/3/143561/isolated/preview/afa3aa927b63061e3b0222b7dab9cdbf-ubicaci--n-n--utica-norte-flecha-vintage-by-vexels.png"
