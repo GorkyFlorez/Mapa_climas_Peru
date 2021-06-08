@@ -3,7 +3,7 @@
     "path": "E:/01 Aprende R desde Cero/02 Aprende R desde Cero para SIG/Mapa_climas_Peru/Climas del Peru.R",
     "project_path": "Climas del Peru.R",
     "type": "r_source",
-    "hash": "4105583568",
+    "hash": "4243683371",
     "contents": "",
     "dirty": false,
     "created": 1623129189424.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "48,0",
-        "scrollLine": "34"
+        "cursorPosition": "7,19",
+        "scrollLine": "1"
     },
     "folds": "",
-    "lastKnownWriteTime": 1623134014,
+    "lastKnownWriteTime": 1623170477,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1623134014557,
+    "last_content_update": 1623170477501,
     "read_only": false,
     "read_only_alternatives": []
 }
