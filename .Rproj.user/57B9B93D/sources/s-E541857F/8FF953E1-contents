@@ -45,7 +45,7 @@ M<-leaflet() %>%
   addSearchFeatures(targetGroups = "Climas")
 
 htmlwidgets::saveWidget(M, "Climas del peru.html")
-
+saveWidget ( M , file = "index.html" )
 
 
 
